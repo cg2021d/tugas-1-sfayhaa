@@ -614,7 +614,7 @@ function main() {
     const uTranslate = gl.getUniformLocation(shaderProgram, 'uTranslate');
 
     function render() {
-        if (dy >= 0.28 || dy <= -0.07) speed = -speed;
+        if (dy >= 0.5 || dy <= -0.8) speed = -speed;
         dy += speed;
 
         const left = [
