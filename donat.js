@@ -609,7 +609,7 @@ function main() {
     gl.vertexAttribPointer(aColor, 3, gl.FLOAT, false, 5 * Float32Array.BYTES_PER_ELEMENT, 2 * Float32Array.BYTES_PER_ELEMENT);
     gl.enableVertexAttribArray(aColor);
 
-    var speed = 0.00185;
+    var speed = 0.0185;
     var dy = 0;
     const uTranslate = gl.getUniformLocation(shaderProgram, 'uTranslate');
 
