@@ -1,0 +1,23 @@
+.deskripsi {
+    position: relative;
+    left: -756px;
+}
+
+.title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(200, 187, 161);
+    position: relative;
+    right: -780px;
+    top: -620px;
+    margin-top: 225px;
+}
+
+h3 {
+    padding-bottom: 1px;
+}
+
+.image {
+    position: relative;
+    right: -780px;
+    top: -620px;
+}
