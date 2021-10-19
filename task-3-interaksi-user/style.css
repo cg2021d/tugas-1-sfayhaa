@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.score {
+    position: absolute;
+    padding: 5px;
+    font-size: 1.25rem;
+    color: rgb(229, 202, 189);
+}
