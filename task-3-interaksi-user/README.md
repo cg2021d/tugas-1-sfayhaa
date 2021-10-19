@@ -5,3 +5,5 @@
 * Berhenti tambah obyek baru jika jumlah obyek sudah mencapai batas tertentu.
 * Pilihlah 2 obyek pasangan yang memiliki warna yang sama. Jika 2 obyek pasangan telah terpilih, hapus obyek-obyek tersebut dan tambah skor
 
+untuk demo live tugasnya bisa di akses di
+https://sfayhaa.github.io/MatchGame/
