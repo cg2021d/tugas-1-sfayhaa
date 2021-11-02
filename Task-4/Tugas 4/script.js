@@ -99,12 +99,12 @@ renderer.gammaOutput = true;
  */
 const panorama = new THREE.CubeTextureLoader();
 const textureSun = panorama.load([
-    'sky-map/dusk_bk.png',
-    'sky-map/dusk_dn.png',
-    'sky-map/dusk_ft.png',
-    'sky-map/dusk_lf.png',
-    'sky-map/dusk_rt.png',
-    'sky-map/dusk_up.png',
+    './sky-box/dusk_bk.jpg',
+    './sky-box/dusk_dn.jpg',
+    './sky-box/dusk_ft.jpg',
+    './sky-box/dusk_lf.jpg',
+    './sky-box/dusk_rt.jpg',
+    './sky-box/dusk_up.jpg',
 
 ]);
 scene.background = textureSun;
@@ -267,7 +267,7 @@ directionalLightFolder.add(directionalLight, 'intensity').min(0).max(10).step(0.
 
 const near = 20;
 const far = 70;
-const color = 'lightblue';
+const color = 'lightpink';
 scene.fog = new THREE.Fog(color, near, far);
 
 // fog helper
